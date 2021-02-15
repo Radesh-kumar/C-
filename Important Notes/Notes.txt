@@ -1,4 +1,9 @@
 DSA C++
 
 1.Pointers:
-	
+	1.Integer Pointers/arrays stores address implicitly(we dont have to mention &a)
+	2.Character Pointers/arrays works differently with cout,
+	It will print all the elements upto the null character '\0'
+	(we have to explicitly mention &a inorder to print address or else it will print the string)
+2.char = '\0' (single character) ---> Null character
+  Sting = "a" (Although we have only one character this is string literal)
