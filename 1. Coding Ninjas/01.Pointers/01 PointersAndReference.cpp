@@ -15,7 +15,7 @@ int main() {
 
     cout << "" << endl; 
 
-    // cout << *a << endl;  # Since a is not a pointer This is not possible
+    // cout << *reference << endl;  # Since reference is not a pointer This is not possible
     cout << *& integer << endl; // Dereferencing Pointer: Adress -> Value
     cout << * pointer << endl;
     cout << *& pointer << endl;

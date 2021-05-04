@@ -16,8 +16,7 @@ int main() {
     cout << b << endl;
     // If we need to print address explicitly
     cout << &b << endl;
-    cout << "" << endl;
-
-
-
+    // Printing address of the 1st element
+    cout << p_a << endl;
+    cout << p_b << endl;
 }

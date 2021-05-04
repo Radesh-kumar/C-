@@ -51,6 +51,4 @@ int main() {
     *ap2 = *ap2 + 1; 
     cout <<"After Value: "<< *ap2 << endl;
     cout << "After Address: "<< ap2<< endl;
-
-
 }
