@@ -1,1 +1,2 @@
-cout << "After Address: "<< p1 << endl;
+    // int x = &a;
+    // int y = &b;

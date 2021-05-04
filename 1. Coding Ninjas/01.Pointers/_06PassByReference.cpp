@@ -3,7 +3,7 @@
   
 #include <iostream> 
 using namespace std; 
-void swap(int x, int y) 
+void swap(int &x, int &y) 
 { 
     int z = x; 
     x = y; 
@@ -13,12 +13,14 @@ void swap(int x, int y)
   
 int main() 
 { 
-    int a = 45, b = 35; 
+    int a = 45, b = 35;
+    // int *x = &a;
+    // int *y = &b;
     cout << "Before Swap\n"; 
     cout << "a = " << a << " b = " << b << "\n"; 
   
     swap(a, b); 
-  
+
     cout << "After Swap with pass by reference\n"; 
     cout << "a = " << a << " b = " << b << "\n"; 
 
